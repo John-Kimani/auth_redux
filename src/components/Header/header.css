@@ -40,3 +40,9 @@
 .nav__toggle {
     display: none;
 }
+
+.cart_length{
+    margin-left: var(  --mb-0-5);
+    color: red;
+    font-size: var(--smaller-font-size);
+}
