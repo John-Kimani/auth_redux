@@ -1,0 +1,12 @@
+.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logout__button {
+    padding: 0.2rem 1.5rem;
+    border-radius: 1.4rem;
+}
