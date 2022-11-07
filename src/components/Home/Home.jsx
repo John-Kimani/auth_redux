@@ -1,8 +1,27 @@
 import React from 'react';
 import "./home.css";
 import { pizzaMenu } from './Data';
+import { useDispatch } from 'react-redux';
+import { addItem } from '../../features/cartSlice';
 
 const Home = () => {
+
+    const dispatch = useDispatch();
+
+    // const [item, setItem ] = useState({});
+
+    const handleAddToCart = () => {
+        dispatch(
+            addItem({
+                id: 3,
+                pizza_name: "Meat Deluxe",
+                quantity: 10,
+                price: 570,
+                description: "For meat lovers, taste variant from beef to mutton.",
+            })
+        );
+    };
+
   return (
     <section className="section home">
         <div className="home__container">
@@ -17,7 +36,7 @@ const Home = () => {
                                 <p>Price: {price}</p>
                             </div>
                             <div className="item__card-footer">
-                                <button className='cart__button'>Add to cart</button>
+                                <button className='cart__button' onClick={handleAddToCart}>Add to cart</button>
                             </div>
                         </div>
                     )
