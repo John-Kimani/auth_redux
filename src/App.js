@@ -5,15 +5,10 @@ import HomePage from "./pages/homepage/HomePage";
 
 import { useSelector } from "react-redux";
 import { selectUser } from "./features/userSlice";
-import { addToCart } from "./features/cartSlice";
+
 
 function App() {
   const user = useSelector(selectUser);
-
-  const cart = useSelector(addToCart);
-
-  console.log(user);
-  console.log(cart);
   return (
     <>
       <BrowserRouter>
