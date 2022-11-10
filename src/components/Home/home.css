@@ -11,6 +11,10 @@
     border-radius: 1.4rem;
 }
 
+.item__card:hover{
+    transform: translateY(0.4rem);
+}
+
 .card__infomation{
     display: flex;
     justify-content: space-between;
@@ -81,10 +85,3 @@
     }
 
   }
-
-/* For small devices */
-@media screen and (max-width: 350px) {
-    /* .home__content {
-
-    } */
-    }
