@@ -3,7 +3,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: var(--body-color);
+    color: white;
+    background-color: #FBC144;
 }
 
 .nav {
@@ -16,8 +17,12 @@
 
 .nav__logo,
 .nav__toggle {
-    color: var(--title-color);
+    color: var(--container-color);
     font-weight: var(---font-medium);
+}
+
+.mama{
+    color: #3A856B;
 }
 
 .nav__list {

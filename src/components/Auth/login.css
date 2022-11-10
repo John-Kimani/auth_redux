@@ -19,8 +19,7 @@
 
 .login__form > input {
     border-radius: 1.4rem;
-    min-width: 380px;
-    padding: 20px 0;
+    padding: 10px 0;
     outline: none;
     border: 1px solid black;
     border-radius: 1rem;
@@ -29,6 +28,42 @@
 }
 
 .submit__button {
-    padding: 1rem 0.4rem;
+    padding: 0.8rem 0.4rem;
     border-radius: 1.4rem;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+
+/* For medium devices */
+
+@media screen and (max-width: 576px) {
+    .login__form{
+        padding: 2rem;
+    }
+
+    .login__form > input {
+        padding: 8px 0;
+        border-radius: 1rem;
+        padding-left: 0.8rem;
+        margin-bottom: var(--mb-0-5);
+    }
+
+    .submit__button {
+        padding: 0.5rem 0rem;
+    }
+
+  }
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+    .login__form > input {
+        border-radius: 1rem;
+        padding-left: 0.8rem;
+        margin-bottom: var(--mb-1);
+        border: 1px solid blue;
+        size: 2;
+    }
+
 }
