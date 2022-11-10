@@ -104,6 +104,8 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  background-color: #FBC144;
+  color: #3A856B;
 }
 
 img {

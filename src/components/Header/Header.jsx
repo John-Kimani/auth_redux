@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="/" className="nav__logo">
-          PizzaMAMA
+          Pizza<span className="mama">MAMA</span>
         </a>
 
         <div className="nav__menu show-menu">
