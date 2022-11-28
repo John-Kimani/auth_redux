@@ -51,3 +51,15 @@
     color: red;
     font-size: var(--smaller-font-size);
 }
+
+.logout_button{
+    outline: 1px solid #3A856B;
+    border-radius: 2px;
+    font-size: small;
+    padding: 0.2rem;
+}
+
+.logout_button:hover{
+    color: white;
+    outline: 1px solid white;
+}

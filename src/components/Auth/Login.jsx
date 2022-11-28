@@ -11,7 +11,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (name !== "" || email !== ""){
+    if (name !== "" && email !== ""){
       dispatch(
         login({
           name: name,

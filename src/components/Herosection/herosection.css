@@ -1,0 +1,49 @@
+.hero__section{
+    background-color: var(--container-color);
+    /* padding: 4.5rem 5rem 0; */
+    height: 60vh;
+}
+
+.home__card{
+    background-image: url('../../assets/chicken_with_coke.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: none;
+}
+
+.home__card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.home__card-content > q{
+    color: white;
+    padding: 4rem;
+    font-weight:var(--font-semi-bold);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+    .home__card-content > q{
+        font-weight:var(--font-semi-bold);
+    }
+  
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .home__card-content > q{
+        font-weight:var(--font-normal);
+    }
+  }
+
+  @media screen and ( max-width: 576){
+    .home__card-content > q{
+        font-weight:var(--font-normal);
+    }
+  }
