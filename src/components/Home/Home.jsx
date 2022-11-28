@@ -22,7 +22,10 @@ const Home = () => {
   };
 
   return (
-    <section className="container section home">
+    <section className="container menu__section home">
+      <div className="section__title">
+        <h1>Our Menu</h1>
+      </div>
               <div className="home__content">
           {pizzaMenu.map(
             ({ id, image, pizza_name, quantity, description, price }) => {
