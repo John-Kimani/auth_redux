@@ -166,7 +166,7 @@ img {
     padding: 2rem 0 4rem;
   }
   .container{
-    margin-left: var(--mb-0-5);
+    margin-left: var(--mb-2-5);
     margin-right: var(--mb-3);
   }
 }
