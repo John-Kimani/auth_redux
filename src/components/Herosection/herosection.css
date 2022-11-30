@@ -2,7 +2,9 @@
     background-color: var(--container-color);
     margin-top: 4.5rem;
     height: 50vh;
+    width: 100%;
     padding-top: 1rem;
+    /* border: 2px solid red; */
 }
 
 .hero__section-content{
@@ -83,4 +85,14 @@
         font-size: var(--small-font-size);
         font-weight: var(--font-normal);
     }
+  }
+
+  @media screen and ( max-width: 376px){
+
+    .hero__section{
+        margin-top: 2.5rem;
+        height: 80vh;
+        padding-top: 2rem;
+    }
+    
   }
